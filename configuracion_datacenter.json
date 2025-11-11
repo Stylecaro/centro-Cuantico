@@ -1,0 +1,74 @@
+{
+  "centro_datos": {
+    "nombre": "QUANTUM_KNOT_DC_001",
+    "descripcion": "Centro de datos cuántico con arquitectura de nudos topológicos",
+    "version": "1.0.0",
+    "fecha_creacion": "2025-11-06"
+  },
+  "red": {
+    "puerto_principal": 5555,
+    "puerto_backup": 5556,
+    "host": "localhost",
+    "max_conexiones": 100,
+    "timeout_conexion": 30
+  },
+  "cristales": {
+    "configuraciones_predefinidas": {
+      "pequeno": {
+        "dimensiones": [3, 3, 3],
+        "capacidad": 27
+      },
+      "mediano": {
+        "dimensiones": [5, 5, 5],
+        "capacidad": 125
+      },
+      "grande": {
+        "dimensiones": [8, 8, 8],
+        "capacidad": 512
+      },
+      "extra_grande": {
+        "dimensiones": [10, 10, 10],
+        "capacidad": 1000
+      }
+    },
+    "fidelidad_minima": 0.85,
+    "coherencia_minima": 0.90
+  },
+  "nudos": {
+    "tipos_disponibles": [
+      "trebol",
+      "figura_ocho",
+      "toroidal",
+      "borromeo",
+      "hopf"
+    ],
+    "cubits_por_nudo": {
+      "minimo": 2,
+      "maximo": 16,
+      "recomendado": 8
+    },
+    "integridad_topologica_minima": 0.90
+  },
+  "seguridad": {
+    "encriptacion_cuantica": true,
+    "verificacion_integridad": true,
+    "backup_automatico": true,
+    "redundancia_topologica": 3
+  },
+  "optimizacion": {
+    "balanceo_carga": true,
+    "compresion_cuantica": true,
+    "desfragmentacion_automatica": true,
+    "limpieza_estados_colapsados": true
+  },
+  "monitoreo": {
+    "log_eventos": true,
+    "metricas_tiempo_real": true,
+    "alertas_coherencia": true,
+    "umbrales": {
+      "fidelidad_critica": 0.70,
+      "energia_maxima": 1000.0,
+      "ocupacion_critica": 0.95
+    }
+  }
+}

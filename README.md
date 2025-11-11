@@ -1,0 +1,184 @@
+# Centro de Datos Cuántico con Nudos Topológicos
+
+Sistema avanzado de almacenamiento cuántico basado en estructuras de nudos topológicos y cristales cuánticos con conectividad de red.
+
+## 🌟 Características
+
+### Arquitectura Cuántica
+- **Cubits Cuánticos**: Representación de estados cuánticos con superposición y entrelazamiento
+- **Nudos Topológicos**: Estructuras de almacenamiento basadas en topología de nudos
+- **Cristales Cuánticos**: Redes tridimensionales para organizar nudos
+- **Circuitos Qiskit**: Preparación y simulación de estados mediante `QuantumCircuit`
+
+### Tipos de Nudos Disponibles
+1. **Trébol**: Nudo básico de 3 cruces, ideal para almacenamiento simple
+2. **Figura Ocho**: Nudo de 4 cruces, mayor capacidad de entrelazamiento
+3. **Toroidal**: Estructura toroidal para datos circulares
+4. **Borromeo**: Tres anillos entrelazados, máxima seguridad
+5. **Hopf**: Dos círculos enlazados, óptimo para datos relacionados
+
+### Conectividad de Red
+- Servidor TCP/IP integrado
+- Consultas remotas del estado del sistema
+- Gestión distribuida de cristales
+- API de comandos simple y extensible
+
+### Integración Qiskit
+- Codificación de datos en circuitos `QuantumCircuit`
+- Cálculo de matrices de entrelazamiento con `DensityMatrix`
+- Estados individuales generados mediante `Statevector`
+
+## 📦 Estructura del Sistema
+
+```
+Centro de Datos Cuántico
+├── Cristales Cuánticos (3D Grid)
+│   ├── Nudos Cuánticos
+│   │   ├── Cubits
+│   │   ├── Matriz de Entrelazamiento
+│   │   └── Invariante Topológico
+│   └── Red de Conexiones
+└── Servidor de Red
+    ├── Gestión de Conexiones
+    ├── Procesamiento de Comandos
+    └── Sincronización de Estado
+```
+
+## 🚀 Uso
+
+### Iniciar el Centro de Datos
+
+```bash
+python quantum_knot_datacenter.py
+```
+
+Esto iniciará:
+- Centro de datos cuántico con cristales predefinidos
+- Servidor de red en puerto 5555
+- Almacenamiento automático de datos de prueba
+
+### Conectarse como Cliente
+
+```bash
+python cliente_red_cuantica.py
+```
+
+Comandos disponibles:
+- `STATUS` - Estado completo del sistema
+- `LIST` - Lista todos los cristales
+- `INFO <nombre>` - Información de un cristal específico
+
+### Ejemplo de Uso Programático
+
+```python
+from quantum_knot_datacenter import CentroDatosNudos, TipoNudo
+
+# Crear centro de datos
+centro = CentroDatosNudos("MI_DATACENTER", puerto_red=5555)
+
+# Crear cristal
+cristal = centro.crear_cristal("MiCristal", (5, 5, 5))
+
+# Almacenar datos
+datos = b"Informacion confidencial"
+centro.almacenar_datos("MiCristal", datos, TipoNudo.BORROMEO)
+
+# Iniciar servidor
+centro.iniciar_servidor_red()
+
+# Mostrar estado
+centro.mostrar_estado()
+```
+
+## 🔧 Configuración
+
+Edita `configuracion_datacenter.json` para personalizar:
+
+- Dimensiones de cristales
+- Puerto de red
+- Parámetros cuánticos (fidelidad, coherencia)
+- Umbrales de seguridad
+- Opciones de optimización
+
+## 📊 Conceptos Cuánticos
+
+### Estados Cuánticos
+- **Superposición**: α|0⟩ + β|1⟩
+- **Entrelazamiento**: Correlaciones cuánticas entre cubits
+- **Coherencia**: Mantenimiento del estado cuántico
+- **Fidelidad**: Calidad del estado cuántico (>0.85)
+
+### Invariante Topológico
+El sistema calcula invariantes topológicos para cada nudo:
+```
+I(K) = Σ(αᵢ × βᵢ) × e^(iθ)
+```
+Donde θ es la integridad topológica del nudo.
+
+### Energía del Cristal
+```
+E = Σ |I(Kᵢ)|²
+```
+Suma de las amplitudes cuadradas de todos los invariantes.
+
+## 🔐 Seguridad
+
+- Encriptación cuántica mediante entrelazamiento
+- Hash SHA-256 para identificación de datos
+- Verificación de integridad topológica
+- Redundancia mediante múltiples nudos
+
+## 📈 Métricas del Sistema
+
+El sistema proporciona:
+- Ocupación de cristales (%)
+- Energía total del sistema
+- Fidelidad promedio de cubits
+- Coherencia de nudos
+- Conexiones de red activas
+
+## 🌐 Arquitectura de Red
+
+### Servidor
+- Escucha en puerto configurable (default: 5555)
+- Manejo multi-thread de conexiones
+- Protocolo de comandos basado en texto
+
+### Protocolo de Comunicación
+```
+Cliente → Servidor: COMANDO [ARGS]
+Servidor → Cliente: RESPUESTA (JSON/TEXT)
+```
+
+## 🛠️ Requisitos
+
+```python
+numpy>=1.20.0
+qiskit>=1.0.0
+```
+
+## 📝 Notas Técnicas
+
+### Limitaciones Actuales
+- Simulación clásica de comportamiento cuántico
+- Máximo 16 cubits por nudo (para eficiencia)
+- Servidor local (localhost)
+
+### Futuras Mejoras
+- Implementación en hardware cuántico real
+- Corrección de errores cuántica
+- Protocolos de red cuántica (QKD)
+- Visualización 3D de cristales
+- API RESTful completa
+
+## 📄 Licencia
+
+Sistema de demostración educativa - Uso libre para investigación y aprendizaje
+
+## 🤝 Contribuciones
+
+Este es un sistema experimental de almacenamiento cuántico. Las mejoras y sugerencias son bienvenidas.
+
+---
+
+**Nota**: Este sistema simula conceptos cuánticos en hardware clásico para propósitos educativos y de investigación. Para aplicaciones cuánticas reales, se requiere hardware cuántico especializado.
