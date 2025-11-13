@@ -114,8 +114,11 @@ class ClienteRedCuantica:
             print("1. Obtener estado completo")
             print("2. Listar cristales")
             print("3. Info de cristal específico")
-            print("4. Enviar comando personalizado")
-            print("5. Salir")
+            print("4. 🤖 Estado de IA Cuántica")
+            print("5. 🤖 Reporte completo de IA")
+            print("6. 🤖 Optimizar con IA")
+            print("7. Enviar comando personalizado")
+            print("8. Salir")
             print("-"*60)
             
             opcion = input("Selecciona una opción: ").strip()
@@ -132,13 +135,48 @@ class ClienteRedCuantica:
                     self.info_cristal(nombre)
             
             elif opcion == "4":
+                # 🤖 Estado de IA
+                respuesta = self.enviar_comando("AI_STATUS")
+                try:
+                    estado_ia = json.loads(respuesta)
+                    print("\n🤖 ESTADO DE IA CUÁNTICA:")
+                    print("-" * 40)
+                    for clave, valor in estado_ia.items():
+                        print(f"  {clave}: {valor}")
+                except:
+                    print(respuesta)
+            
+            elif opcion == "5":
+                # 🤖 Reporte completo de IA
+                respuesta = self.enviar_comando("AI_REPORT")
+                print(respuesta)
+            
+            elif opcion == "6":
+                # 🤖 Optimizar con IA
+                print("\n🤖 Iniciando optimización con IA...")
+                respuesta = self.enviar_comando("AI_OPTIMIZE")
+                try:
+                    resultado = json.loads(respuesta)
+                    print("\n✓ Optimización completada:")
+                    print("-" * 40)
+                    for clave, valor in resultado.items():
+                        if isinstance(valor, dict):
+                            print(f"  {clave}:")
+                            for k, v in valor.items():
+                                print(f"    {k}: {v}")
+                        else:
+                            print(f"  {clave}: {valor}")
+                except:
+                    print(respuesta)
+            
+            elif opcion == "7":
                 comando = input("Comando: ").strip()
                 if comando:
                     respuesta = self.enviar_comando(comando)
                     print("\nRespuesta:")
                     print(respuesta)
             
-            elif opcion == "5":
+            elif opcion == "8":
                 print("\nCerrando cliente...")
                 break
             

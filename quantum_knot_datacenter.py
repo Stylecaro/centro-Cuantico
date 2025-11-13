@@ -1,6 +1,7 @@
 """
 Sistema de Centro de Datos Cuántico con Nudos
 Almacenamiento cúbico cuántico para cristales con conectividad de red
+Con IA Cuántica integrada para corrección de errores y optimización
 """
 
 import numpy as np
@@ -15,6 +16,9 @@ from enum import Enum
 
 from qiskit import QuantumCircuit
 from qiskit.quantum_info import DensityMatrix, Statevector, partial_trace
+
+# Importar sistema de IA Cuántica
+from quantum_ai import SistemaIACuantica, sistema_ia_global
 
 
 class EstadoCuantico(Enum):
@@ -335,6 +339,14 @@ class CentroDatosNudos:
             payload=datos
         )
         
+        # 🤖 IA: Procesar nudo con sistema de corrección y optimización
+        print("🤖 IA: Analizando y optimizando nudo...")
+        resultado_ia = sistema_ia_global.procesar_nudo(nudo)
+        if resultado_ia['errores_corregidos'] > 0:
+            print(f"  ✓ IA corrigió {resultado_ia['errores_corregidos']} errores")
+        if resultado_ia['optimizaciones_aplicadas'] > 0:
+            print(f"  ✓ IA aplicó {resultado_ia['optimizaciones_aplicadas']} optimizaciones")
+        
         # Encontrar posición libre en el cristal
         for x in range(cristal.dimensiones[0]):
             for y in range(cristal.dimensiones[1]):
@@ -431,6 +443,18 @@ class CentroDatosNudos:
                 return json.dumps(self.cristales[nombre_cristal].get_estado(), indent=2)
             return f"ERROR: Cristal '{nombre_cristal}' no encontrado"
         
+        elif cmd == "AI_STATUS":
+            # 🤖 Nuevo comando: obtener estado de la IA
+            return json.dumps(sistema_ia_global.obtener_metricas(), indent=2)
+        
+        elif cmd == "AI_REPORT":
+            # 🤖 Nuevo comando: reporte completo de IA
+            return sistema_ia_global.generar_reporte_ia()
+        
+        elif cmd == "AI_OPTIMIZE":
+            # 🤖 Nuevo comando: optimizar todos los cristales con IA
+            return self._optimizar_con_ia()
+        
         return "ERROR: Comando no reconocido"
     
     def obtener_estado_json(self) -> str:
@@ -443,12 +467,37 @@ class CentroDatosNudos:
                 'puerto': self.puerto_red,
                 'conexiones': len(self.conexiones_red)
             },
+            'ia_cuantica': sistema_ia_global.obtener_metricas(),  # 🤖 Añadir métricas de IA
             'cristales_detalle': {
                 nombre: cristal.get_estado() 
                 for nombre, cristal in self.cristales.items()
             }
         }
         return json.dumps(estado, indent=2)
+    
+    def _optimizar_con_ia(self) -> str:
+        """Optimiza todos los cristales usando el sistema de IA"""
+        resultados = []
+        total_errores = 0
+        total_correcciones = 0
+        total_optimizaciones = 0
+        
+        for nombre, cristal in self.cristales.items():
+            for posicion, nudo in cristal.nudos.items():
+                resultado = sistema_ia_global.procesar_nudo(nudo)
+                total_errores += resultado['errores_encontrados']
+                total_correcciones += resultado['errores_corregidos']
+                total_optimizaciones += resultado['optimizaciones_aplicadas']
+        
+        resumen = {
+            'cristales_procesados': len(self.cristales),
+            'errores_detectados': total_errores,
+            'errores_corregidos': total_correcciones,
+            'optimizaciones_aplicadas': total_optimizaciones,
+            'estado_ia': sistema_ia_global.obtener_metricas()
+        }
+        
+        return json.dumps(resumen, indent=2)
     
     def detener_servidor(self):
         """Detiene el servidor de red"""

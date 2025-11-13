@@ -1,6 +1,6 @@
-# Centro de Datos Cuántico con Nudos Topológicos
+# 🔮 Centro de Datos Cuántico con Nudos Topológicos + 🤖 IA Cuántica
 
-Sistema avanzado de almacenamiento cuántico basado en estructuras de nudos topológicos y cristales cuánticos con conectividad de red.
+Sistema avanzado de almacenamiento cuántico con nudos topológicos, cristales cuánticos y **sistema de IA cuántica** para corrección automática de errores, aprendizaje y optimización.
 
 ## 🌟 Características
 
@@ -9,6 +9,24 @@ Sistema avanzado de almacenamiento cuántico basado en estructuras de nudos topo
 - **Nudos Topológicos**: Estructuras de almacenamiento basadas en topología de nudos
 - **Cristales Cuánticos**: Redes tridimensionales para organizar nudos
 - **Circuitos Qiskit**: Preparación y simulación de estados mediante `QuantumCircuit`
+
+### 🤖 IA Cuántica (NUEVO)
+
+- **Corrección Automática de Errores**:
+  - Bit flip correction
+  - Phase flip correction  
+  - Decoherence mitigation
+  - Gate error recovery
+
+- **Optimización con Machine Learning**:
+  - Red neuronal para predecir errores futuros
+  - Gradiente descendente para optimizar fidelidad
+  - Aprendizaje adaptativo de patrones de error
+
+- **Análisis Inteligente**:
+  - Detección automática de anomalías
+  - Sugerencias de reconfiguración
+  - Métricas en tiempo real
 
 ### Tipos de Nudos Disponibles
 1. **Trébol**: Nudo básico de 3 cruces, ideal para almacenamiento simple
@@ -64,9 +82,16 @@ python cliente_red_cuantica.py
 ```
 
 Comandos disponibles:
+
+**Comandos Clásicos:**
 - `STATUS` - Estado completo del sistema
 - `LIST` - Lista todos los cristales
 - `INFO <nombre>` - Información de un cristal específico
+
+**🤖 Comandos de IA (NUEVO):**
+- `AI_STATUS` - Métricas del sistema de IA cuántica
+- `AI_REPORT` - Reporte visual completo de IA
+- `AI_OPTIMIZE` - Optimizar todos los cristales con IA
 
 ### Ejemplo de Uso Programático
 
