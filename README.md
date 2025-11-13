@@ -2,14 +2,14 @@
 
 Sistema avanzado de almacenamiento cuántico con nudos topológicos, cristales cuánticos y **sistema de IA cuántica** para corrección automática de errores, aprendizaje y optimización.
 
-**Autor y Propietario**: Brian Carlisle  
-**Copyright**: © 2025 Brian Carlisle. Todos los derechos reservados.  
+**Autor y Propietario**: StyleEvolution  
+**Copyright**: © 2025 StyleEvolution. Todos los derechos reservados.  
 **Estado de Patente**: Patente Pendiente  
 **Licencia**: Propietaria con permisos para uso académico y científico (ver LICENSE)
 
 ## 📜 Licencia y Patente
 
-Este software es **propiedad exclusiva de Brian Carlisle** y está protegido por derechos de autor y patente pendiente.
+Este software es **propiedad exclusiva de StyleEvolution** y está protegido por derechos de autor y patente pendiente.
 
 ### ✅ Uso Permitido (Gratuito)
 - 🎓 **Uso académico** en universidades e instituciones educativas
@@ -224,9 +224,9 @@ qiskit>=1.0.0
 
 ## 📄 Licencia y Propiedad Intelectual
 
-**© 2025 Brian Carlisle. Todos los derechos reservados.**
+**© 2025 StyleEvolution. Todos los derechos reservados.**
 
-Este software es **propiedad exclusiva** de Brian Carlisle y está protegido por:
+Este software es **propiedad exclusiva** de StyleEvolution y está protegido por:
 - Derechos de autor (Copyright)
 - Patente pendiente sobre algoritmos y arquitectura
 - Marca registrada (pendiente)
@@ -248,12 +248,12 @@ Este software es **propiedad exclusiva** de Brian Carlisle y está protegido por
 **Ver `LICENSE` para términos completos**  
 **Ver `PATENT.md` para documentación de patente**
 
-## � Contacto y Licenciamiento Comercial
+## 📞 Contacto y Licenciamiento Comercial
 
 Para solicitar licencias comerciales, colaboración o permisos especiales:
 
-**Brian Carlisle**  
-Email: brian.carlisle@example.com  
+**StyleEvolution**  
+Email: styleevolution@example.com  
 Asunto: "Licencia Sistema Cuántico - [Institución/Empresa]"
 
 ### Citación Académica
@@ -261,19 +261,19 @@ Asunto: "Licencia Sistema Cuántico - [Institución/Empresa]"
 Si usas este sistema en publicaciones científicas, citar como:
 
 ```bibtex
-@software{carlisle2025quantum,
-  author = {Carlisle, Brian},
+@software{styleevolution2025quantum,
+  author = {StyleEvolution},
   title = {Sistema de Centro de Datos Cuántico con Nudos Topológicos e 
            Inteligencia Artificial},
   year = {2025},
   note = {Patente Pendiente},
-  url = {https://github.com/[usuario]/[repo]}
+  url = {https://github.com/[usuario]/centro-cuantico}
 }
 ```
 
 ## 🤝 Colaboración Académica
 
-Brian Carlisle está abierto a colaboraciones con:
+StyleEvolution está abierto a colaboraciones con:
 - Instituciones de investigación cuántica
 - Universidades con programas de computación cuántica
 - Laboratorios de física teórica
@@ -283,4 +283,4 @@ Brian Carlisle está abierto a colaboraciones con:
 
 **Nota**: Este sistema simula conceptos cuánticos en hardware clásico para propósitos educativos y de investigación. Para aplicaciones cuánticas reales, se requiere hardware cuántico especializado.
 
-**AVISO LEGAL**: Todos los algoritmos, arquitecturas y métodos descritos en este proyecto son propiedad intelectual de Brian Carlisle y están protegidos por ley.
+**AVISO LEGAL**: Todos los algoritmos, arquitecturas y métodos descritos en este proyecto son propiedad intelectual de StyleEvolution y están protegidos por ley.

@@ -10,7 +10,7 @@ Sistema y Método para Almacenamiento, Procesamiento y Corrección de Informaci�
 Cuántica mediante Estructuras Topológicas con Inteligencia Artificial Adaptativa
 
 **Inventor:**  
-Brian Carlisle
+StyleEvolution
 
 **Fecha de Solicitud:**  
 12 de noviembre de 2025
@@ -487,7 +487,7 @@ Brian Carlisle reivindica derechos exclusivos sobre:
 ---
 
 **Firmado:**  
-Brian Carlisle  
+StyleEvolution  
 Inventor
 
 **Fecha:**  

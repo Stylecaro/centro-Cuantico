@@ -1,7 +1,7 @@
 """
 Visualizador 3D para Nudos Cuánticos
 Muestra cristales cuánticos y sus nudos en espacio 3D interactivo
-Autor: Brian Carlisle
+Autor: StyleEvolution
 """
 
 import matplotlib.pyplot as plt

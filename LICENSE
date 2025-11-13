@@ -1,7 +1,7 @@
 LICENCIA PROPIETARIA Y PATENTE
 ================================
 
-Copyright © 2025 Brian Carlisle. Todos los derechos reservados.
+Copyright © 2025 StyleEvolution. Todos los derechos reservados.
 
 PROPIEDAD INTELECTUAL
 =====================
@@ -14,7 +14,7 @@ Este software y toda la documentación asociada, incluyendo pero no limitado a:
 - Visualizador 3D de Nudos Cuánticos
 - Toda la arquitectura, código fuente, diseño y documentación
 
-Son propiedad exclusiva de BRIAN CARLISLE y están protegidos por las leyes de 
+Son propiedad exclusiva de STYLEEVOLUTION y están protegidos por las leyes de 
 propiedad intelectual y derechos de autor internacionales.
 
 PATENTE PENDIENTE
@@ -28,13 +28,13 @@ Se ha solicitado patente para:
 
 Número de solicitud de patente: [PENDIENTE]
 Fecha de presentación: 12 de noviembre de 2025
-Inventor: Brian Carlisle
+Inventor: StyleEvolution
 
 
 PERMISOS DE USO
 ===============
 
-El titular de los derechos de autor, Brian Carlisle, otorga los siguientes 
+El titular de los derechos de autor, StyleEvolution, otorga los siguientes 
 permisos limitados:
 
 1. USO ACADÉMICO Y EDUCATIVO
@@ -44,9 +44,9 @@ permisos limitados:
    ✓ Profesores para uso en cursos
    
    CONDICIONES:
-   - Debe citarse la autoría de Brian Carlisle
+   - Debe citarse la autoría de StyleEvolution
    - No se permite uso comercial
-   - Debe notificarse al autor del uso (brian.carlisle@example.com)
+   - Debe notificarse al autor del uso (styleevolution@example.com)
    - Los trabajos derivados deben reconocer la fuente original
 
 2. USO CIENTÍFICO Y DE INVESTIGACIÓN
@@ -56,7 +56,7 @@ permisos limitados:
    ✓ Publicaciones científicas
    
    CONDICIONES:
-   - Citar en publicaciones: "Sistema desarrollado por Brian Carlisle (2025)"
+   - Citar en publicaciones: "Sistema desarrollado por StyleEvolution (2025)"
    - Compartir hallazgos con el autor
    - No se permite patentamiento de derivados sin autorización
    - Reconocimiento en publicaciones y presentaciones
@@ -75,7 +75,7 @@ permisos limitados:
 RESTRICCIONES
 =============
 
-NO ESTÁ PERMITIDO sin autorización escrita de Brian Carlisle:
+NO ESTÁ PERMITIDO sin autorización escrita de StyleEvolution:
 
 ✗ Uso comercial de cualquier tipo
 ✗ Redistribución del código o derivados
@@ -108,8 +108,8 @@ CÓMO SOLICITAR PERMISOS ADICIONALES
 Para uso comercial, licenciamiento, o cualquier uso no cubierto por los 
 permisos anteriores, contactar a:
 
-Brian Carlisle
-Email: brian.carlisle@example.com
+StyleEvolution
+Email: styleevolution@example.com
 Asunto: "Solicitud de Licencia - Sistema Cuántico"
 
 Se considerarán solicitudes para:
@@ -126,23 +126,23 @@ Al usar este software en trabajos académicos o científicos, usar el siguiente
 formato de citación:
 
 APA:
-Carlisle, B. (2025). Sistema de Centro de Datos Cuántico con Nudos Topológicos 
-e Inteligencia Artificial [Software]. https://github.com/[usuario]/[repo]
+StyleEvolution. (2025). Sistema de Centro de Datos Cuántico con Nudos Topológicos 
+e Inteligencia Artificial [Software]. https://github.com/[usuario]/centro-cuantico
 
 BibTeX:
-@software{carlisle2025quantum,
-  author = {Carlisle, Brian},
+@software{styleevolution2025quantum,
+  author = {StyleEvolution},
   title = {Sistema de Centro de Datos Cuántico con Nudos Topológicos e 
            Inteligencia Artificial},
   year = {2025},
-  url = {https://github.com/[usuario]/[repo]}
+  url = {https://github.com/[usuario]/centro-cuantico}
 }
 
 
 MODIFICACIONES DE LA LICENCIA
 ==============================
 
-Brian Carlisle se reserva el derecho de modificar estos términos en cualquier 
+StyleEvolution se reserva el derecho de modificar estos términos en cualquier 
 momento. Las modificaciones se aplicarán a versiones futuras del software.
 
 La versión actual de esta licencia siempre estará disponible en el repositorio 
@@ -166,4 +166,4 @@ sujeto a los términos y condiciones de esta licencia.
 ---
 Última actualización: 12 de noviembre de 2025
 Versión de licencia: 1.0
-Titular de derechos: Brian Carlisle
+Titular de derechos: StyleEvolution
