@@ -117,8 +117,9 @@ class ClienteRedCuantica:
             print("4. 🤖 Estado de IA Cuántica")
             print("5. 🤖 Reporte completo de IA")
             print("6. 🤖 Optimizar con IA")
-            print("7. Enviar comando personalizado")
-            print("8. Salir")
+            print("7. 🔮 Visualización 3D de nudos")
+            print("8. Enviar comando personalizado")
+            print("9. Salir")
             print("-"*60)
             
             opcion = input("Selecciona una opción: ").strip()
@@ -170,13 +171,23 @@ class ClienteRedCuantica:
                     print(respuesta)
             
             elif opcion == "7":
+                # 🔮 Visualización 3D
+                print("\n🔮 Abriendo visualizador 3D...")
+                try:
+                    import subprocess
+                    subprocess.Popen(['python', 'visualizador_3d.py'])
+                    print("✓ Visualizador 3D iniciado en nueva ventana")
+                except Exception as e:
+                    print(f"✗ Error al abrir visualizador: {e}")
+            
+            elif opcion == "8":
                 comando = input("Comando: ").strip()
                 if comando:
                     respuesta = self.enviar_comando(comando)
                     print("\nRespuesta:")
                     print(respuesta)
             
-            elif opcion == "8":
+            elif opcion == "9":
                 print("\nCerrando cliente...")
                 break
             

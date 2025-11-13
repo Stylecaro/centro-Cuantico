@@ -2,6 +2,31 @@
 
 Sistema avanzado de almacenamiento cuántico con nudos topológicos, cristales cuánticos y **sistema de IA cuántica** para corrección automática de errores, aprendizaje y optimización.
 
+**Autor y Propietario**: Brian Carlisle  
+**Copyright**: © 2025 Brian Carlisle. Todos los derechos reservados.  
+**Estado de Patente**: Patente Pendiente  
+**Licencia**: Propietaria con permisos para uso académico y científico (ver LICENSE)
+
+## 📜 Licencia y Patente
+
+Este software es **propiedad exclusiva de Brian Carlisle** y está protegido por derechos de autor y patente pendiente.
+
+### ✅ Uso Permitido (Gratuito)
+- 🎓 **Uso académico** en universidades e instituciones educativas
+- 🔬 **Investigación científica** no comercial
+- 👨‍🎓 **Estudiantes** para proyectos de aprendizaje
+- 📚 **Profesores** para uso en cursos
+
+### ❌ Prohibido
+- Uso comercial sin autorización
+- Redistribución o sublicenciamiento
+- Eliminación de avisos de copyright
+- Reclamar autoría
+
+**Para uso comercial o permisos adicionales**: Contactar a Brian Carlisle
+
+Ver archivos `LICENSE` y `PATENT.md` para detalles completos.
+
 ## 🌟 Características
 
 ### Arquitectura Cuántica
@@ -185,25 +210,77 @@ qiskit>=1.0.0
 ## 📝 Notas Técnicas
 
 ### Limitaciones Actuales
+
 - Simulación clásica de comportamiento cuántico
 - Máximo 16 cubits por nudo (para eficiencia)
 - Servidor local (localhost)
 
 ### Futuras Mejoras
+
 - Implementación en hardware cuántico real
-- Corrección de errores cuántica
 - Protocolos de red cuántica (QKD)
-- Visualización 3D de cristales
-- API RESTful completa
+- API RESTful completa extendida
+- Escalamiento a múltiples nodos
 
-## 📄 Licencia
+## 📄 Licencia y Propiedad Intelectual
 
-Sistema de demostración educativa - Uso libre para investigación y aprendizaje
+**© 2025 Brian Carlisle. Todos los derechos reservados.**
 
-## 🤝 Contribuciones
+Este software es **propiedad exclusiva** de Brian Carlisle y está protegido por:
+- Derechos de autor (Copyright)
+- Patente pendiente sobre algoritmos y arquitectura
+- Marca registrada (pendiente)
 
-Este es un sistema experimental de almacenamiento cuántico. Las mejoras y sugerencias son bienvenidas.
+### Permisos de Uso
+
+✅ **PERMITIDO** (sin costo):
+- Uso académico en universidades
+- Investigación científica no comercial  
+- Educación y aprendizaje
+- Análisis y estudio del código
+
+❌ **PROHIBIDO** (sin licencia):
+- Uso comercial
+- Redistribución
+- Sublicenciamiento
+- Uso militar
+
+**Ver `LICENSE` para términos completos**  
+**Ver `PATENT.md` para documentación de patente**
+
+## � Contacto y Licenciamiento Comercial
+
+Para solicitar licencias comerciales, colaboración o permisos especiales:
+
+**Brian Carlisle**  
+Email: brian.carlisle@example.com  
+Asunto: "Licencia Sistema Cuántico - [Institución/Empresa]"
+
+### Citación Académica
+
+Si usas este sistema en publicaciones científicas, citar como:
+
+```bibtex
+@software{carlisle2025quantum,
+  author = {Carlisle, Brian},
+  title = {Sistema de Centro de Datos Cuántico con Nudos Topológicos e 
+           Inteligencia Artificial},
+  year = {2025},
+  note = {Patente Pendiente},
+  url = {https://github.com/[usuario]/[repo]}
+}
+```
+
+## 🤝 Colaboración Académica
+
+Brian Carlisle está abierto a colaboraciones con:
+- Instituciones de investigación cuántica
+- Universidades con programas de computación cuántica
+- Laboratorios de física teórica
+- Proyectos de código abierto relacionados (con acuerdo previo)
 
 ---
 
 **Nota**: Este sistema simula conceptos cuánticos en hardware clásico para propósitos educativos y de investigación. Para aplicaciones cuánticas reales, se requiere hardware cuántico especializado.
+
+**AVISO LEGAL**: Todos los algoritmos, arquitecturas y métodos descritos en este proyecto son propiedad intelectual de Brian Carlisle y están protegidos por ley.
