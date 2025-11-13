@@ -1,4 +1,4 @@
-# 🔮 Centro de Datos Cuántico con Nudos Topológicos + 🤖 IA Cuántica
+#  Centro de Datos Cuántico con Nudos Topológicos + 🤖 IA Cuántica
 
 Sistema avanzado de almacenamiento cuántico con nudos topológicos, cristales cuánticos y **sistema de IA cuántica** para corrección automática de errores, aprendizaje y optimización.
 
@@ -253,7 +253,7 @@ Este software es **propiedad exclusiva** de StyleEvolution y está protegido por
 Para solicitar licencias comerciales, colaboración o permisos especiales:
 
 **StyleEvolution**  
-Email: styleevolution@example.com  
+Email: styleevolution@outlook.com
 Asunto: "Licencia Sistema Cuántico - [Institución/Empresa]"
 
 ### Citación Académica
