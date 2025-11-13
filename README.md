@@ -11,7 +11,7 @@ Sistema avanzado de almacenamiento cuántico con nudos topológicos, cristales c
 
 Este software es **propiedad exclusiva de StyleEvolution** y está protegido por derechos de autor y patente pendiente.
 
-### ✅ Uso Permitido (Gratuito)
+### ✅ Uso Permitido 
 - 🎓 **Uso académico** en universidades e instituciones educativas
 - 🔬 **Investigación científica** no comercial
 - 👨‍🎓 **Estudiantes** para proyectos de aprendizaje
@@ -23,7 +23,7 @@ Este software es **propiedad exclusiva de StyleEvolution** y está protegido por
 - Eliminación de avisos de copyright
 - Reclamar autoría
 
-**Para uso comercial o permisos adicionales**: Contactar a Brian Carlisle
+**Para uso comercial o permisos adicionales**: Contactar a Stylecaro 
 
 Ver archivos `LICENSE` y `PATENT.md` para detalles completos.
 
